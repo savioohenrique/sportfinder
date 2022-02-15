@@ -15,11 +15,9 @@ class CustomDrawer extends StatefulWidget {
 }
 
 class _CustomDrawerState extends State<CustomDrawer> {
-  // AuthStore _authStore;
 
   @override
   void initState() {
-    // _authStore = locator.get<AuthStore>();
     super.initState();
   }
 

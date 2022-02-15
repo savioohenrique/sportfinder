@@ -75,8 +75,6 @@ class PaymentMethodView extends StatelessWidget {
                       alignment: Alignment.bottomLeft,
                       maxHeight: 25,
                     ),
-                    // onTap: () => LocatorService.locator<NavigationService>()
-                    //     .navigateTo('/add_card'),
                   ),
                   const ListTile(
                     title: ConstrainedText(
@@ -86,8 +84,6 @@ class PaymentMethodView extends StatelessWidget {
                       alignment: Alignment.bottomLeft,
                       maxHeight: 25,
                     ),
-                    // onTap: () => LocatorService.locator<NavigationService>()
-                    //     .navigateTo('/add_card'),
                   )
                 ],
               ),

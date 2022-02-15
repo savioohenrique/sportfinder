@@ -17,19 +17,6 @@ class CreateEventFormView extends StatelessWidget {
         title: const Text("Adicionar Evento", style: TextStyle(fontSize: 18)),
       ),
       backgroundColor: const Color(0xfff8f8f8),
-      // floatingActionButtonLocation: FloatingActionButtonLocation.startTop,
-      // floatingActionButton: Builder(builder: (context) {
-      //   return FloatingActionButton(
-      //     child: const Icon(
-      //       FontAwesomeIcons.chevronLeft,
-      //       color: Colors.black,
-      //     ),
-      //     onPressed: () {
-      //       LocatorService.locator<NavigationService>().goBack();
-      //     },
-      //     backgroundColor: Colors.white,
-      //   );
-      // }),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Container(
@@ -39,16 +26,6 @@ class CreateEventFormView extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(bottom: 3.hm),
               ),
-              // Texto utilizado caso não for utilizar o AppBar
-              // Center(
-              //   child: Text(
-              //     "Adicionar Evento",
-              //     style: Theme.of(context).textTheme.headline3,
-              //   ),
-              // ),
-              // Padding(
-              //   padding: EdgeInsets.only(bottom: 5.hm),
-              // ),
               CustomTextInput("Nome do Evento"),
               Padding(
                 padding: EdgeInsets.only(bottom: 3.hm),

@@ -3,34 +3,6 @@ import 'package:sport_finder/ui/locations/location_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:sport_finder/ui/shared/widgets/drawer/custom_drawer.dart';
-//
-// class FindingView extends StatelessWidget {
-//   const FindingView({Key? key}) : super(key: key);
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       drawer: CustomDrawer(),
-//       floatingActionButtonLocation: FloatingActionButtonLocation.startTop,
-//       floatingActionButton: Builder(builder: (context) {
-//         return FloatingActionButton(
-//           child: const Icon(
-//             FontAwesomeIcons.bars,
-//             color: Colors.black,
-//           ),
-//           onPressed: () {
-//             Scaffold.of(context).openDrawer();
-//           },
-//           backgroundColor: Colors.white,
-//         );
-//       }),
-//       body: const GoogleMap(
-//         initialCameraPosition:
-//             CameraPosition(target: LatLng(37.773972, -122.431297), zoom: 11.5),
-//       ),
-//     );
-//   }
-// }
 
 class FindingView extends StatefulWidget {
   const FindingView({Key? key}) : super(key: key);

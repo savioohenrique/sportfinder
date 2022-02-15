@@ -8,7 +8,6 @@ class ColorUtils {
   static MaterialColor hexParaMaterialColor(String code) {
     String materialColor = "0xFF" + code.substring(1, 7);
     Color myColor = hexParaColor(code);
-    // print('red: ${myColor.red} green: ${myColor.green} blue: ${myColor.blue}');
     Map<int, Color> colorCodes = {
       50: Color.fromRGBO(myColor.red, myColor.green, myColor.blue, .1),
       100: Color.fromRGBO(myColor.red, myColor.green, myColor.blue, .2),

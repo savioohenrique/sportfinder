@@ -12,10 +12,6 @@ import 'package:sport_finder/ui/support/support_view.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
-    //Get arguments passed in
-
-    // final args = settings.arguments; caso queira pegar argumentos por rota
-
     switch (settings.name) {
       case '/sign_in':
         return MaterialPageRoute(

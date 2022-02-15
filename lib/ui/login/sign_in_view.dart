@@ -21,12 +21,6 @@ class SignInView extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 6.wm),
               child: Column(
                 children: [
-                  // Center(
-                  //   child: Text(
-                  //     "Login",
-                  //     style: Theme.of(context).textTheme.headline3,
-                  //   ),
-                  // ),
                   Padding(
                     padding: EdgeInsets.only(bottom: 9.hm),
                   ),
